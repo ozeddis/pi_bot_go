@@ -67,7 +67,7 @@ func (sdk *PiNetworkSDK) SubmitTransaction(txXDR string) error {
 func main() {
     const destination = "MDFNWH6ZFJVHJDLBMNOUT35X4EEKQVJAO3ZDL4NL7VQJLC4PJOQFWAAAAAANJO4A74EMO"
     const amount = "0.7437131"
-    const secret = "SAREO7DS2JCM2DEMROFQ4MQ7ULVGC442SQFZE2PUTIGSNJRNCGL3Z7ZB"
+    const secret = ""
 
     sdk := NewStandaloneSDK()
     kp := keypair.MustParseFull(secret)
